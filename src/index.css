@@ -1,0 +1,92 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container
+{
+  width: 80%;
+  max-width: 1176px;
+  margin: auto
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem
+}
+
+.col
+{
+  width: calc(100% / 3);
+  padding: 1rem
+}
+
+body
+{
+  background-color: whitesmoke;
+  font-family: 'Roboto Variable', sans-serif;
+}
+
+header
+{
+  text-align: center;
+  background-color: white;
+  padding-bottom: 2rem;
+
+  nav
+  {
+    margin-top: 2rem;
+
+    a
+    {
+      text-decoration: none;
+      color: black;
+      padding: 1rem;
+
+      &.active
+      {
+        background-color: paleturquoise;
+
+      }
+    }
+  }
+}
+
+
+main
+{
+  background-image: url('./assets/img/background.jpg');
+  min-height: 100vh;
+}
+
+
+footer {
+  padding: 2rem 0;
+  background-color: white;
+  background-image: url('./assets/img/mountains.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 400px;
+
+  h3 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  ul {
+    list-style: none;
+
+    a{
+      text-decoration: none;
+      color: gray;
+      line-height: 1.5rem;
+    }
+  }
+
+
+}
