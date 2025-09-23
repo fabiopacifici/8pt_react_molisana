@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 .container
 {
   width: 80%;
@@ -29,6 +30,11 @@ body
 {
   background-color: whitesmoke;
   font-family: 'Roboto Variable', sans-serif;
+}
+
+img
+{
+  max-width: 100%;
 }
 
 header
@@ -64,7 +70,8 @@ main
 }
 
 
-footer {
+footer
+{
   padding: 2rem 0;
   background-color: white;
   background-image: url('./assets/img/mountains.jpg');
@@ -72,20 +79,45 @@ footer {
   background-position: bottom;
   min-height: 400px;
 
-  h3 {
+  h3
+  {
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-weight: 500;
   }
 
-  ul {
+  ul
+  {
     list-style: none;
 
-    a{
+    a
+    {
       text-decoration: none;
       color: gray;
       line-height: 1.5rem;
     }
+  }
+
+
+}
+
+
+.alert
+{
+
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.25rem;
+  &.bg-danger
+  {
+    background-color: red;
+    border: 1px solid rgb(116, 0, 0);
+  }
+
+  &.bg-success
+  {
+    background-color: green;
+    border: 1px solid rgb(0, 56, 0);
   }
 
 
