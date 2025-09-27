@@ -1,14 +1,22 @@
 import style from './ProductCard.module.css'
 
-export default function ProductCard({name, image}){
+export default function ProductCard({ product }) {
 
-  console.log(name, image);
-  
+
+
+  const { title, src } = product
+  console.log(title, src);
+
 
   return (
-    <div className={style.card}>
-      <img src={image} alt="" />
-      <h3>{name}</h3>
+
+
+    <div className="col">
+      <div className={style.card}>
+        <img src={src} alt="" />
+        <h3>{title}</h3>
+      </div>
     </div>
+
   )
 }

@@ -8,66 +8,22 @@ import AppHeader from './components/AppHeader'
 import AppMain from './components/AppMain'
 import AppFooter from './components/AppFooter'
 import Alert from './components/Alert'
-
+/* Centralization: Import the data */
+import menu from './data/header_menu'
+import footer_menu from './data/footer_menu'
+import products from './data/products'
 
 function App() {
 
 
   return (
     <>
-      {/*  <img src={viteLogo} className="logo" alt="Vite logo" /> */}
 
-      <AppHeader />
+      <AppHeader menu={menu} />
 
-      <AppMain />
+      <AppMain products={products}  />
 
-      <AppFooter />
-
-
-      {/*       <div className="alert bg-danger">
-        <ul>
-          <li>
-            error 1
-          </li>
-          <li>
-            error 2
-          </li>
-          <li>
-            error 3
-          </li>
-        </ul>
-      </div>
-
-
-      <div className="alert bg-success">
-        <p>I did it! well done.</p>
-      </div>
- */}
-
-
-     {/*  <div className="container">
-
-        <Alert type='danger'>
-          <ul>
-            <li>
-              error 1
-            </li>
-            <li>
-              error 2
-            </li>
-            <li>
-              error 3
-            </li>
-          </ul>
-        </Alert>
-
-
-        <Alert type='success'>
-          <p>Well done you did it!</p>
-        </Alert>
-
-      </div> */}
-
+      <AppFooter footer_menu={footer_menu} />
 
 
     </>
