@@ -2,7 +2,7 @@ import ProductCard from "./ProductCard"
 
 export default function AppMain() {
 
-  const title = 'Welcome to Molisana'
+  const title = 'Welcome to Mandolina'
 
   return (
     <main>
@@ -37,7 +37,6 @@ export default function AppMain() {
         </div>
 
       </section>
-
 
 
     </main>

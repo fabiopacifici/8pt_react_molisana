@@ -6,7 +6,7 @@ export default function AppLogo({ slogan }) {
   
   return (
     <>
-      <img src={molisanaLogo} alt="" />
+      <img width={'240'} src={molisanaLogo} alt="" />
       {slogan && <p>{slogan}</p>}
     </>
   )

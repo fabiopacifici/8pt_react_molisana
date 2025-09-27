@@ -45,7 +45,7 @@ function App() {
  */}
 
 
-      <div className="container">
+     {/*  <div className="container">
 
         <Alert type='danger'>
           <ul>
@@ -66,7 +66,7 @@ function App() {
           <p>Well done you did it!</p>
         </Alert>
 
-      </div>
+      </div> */}
 
 
 
